@@ -1,0 +1,21 @@
+print("Enter your first meal you ordered ")
+firstMeal = input()
+print("Enter your total of your first meal ")
+firstTotal = float(input())
+firstTipTotal = firstTotal + 1.5
+print("Your first meal is " + firstMeal)
+print("With a total with tip of $" + str(firstTipTotal))
+print("Enter your second meal you ordered ")
+secondMeal = input()
+print("Enter your total of your second meal ")
+secondTotal = float(input())
+secondTipTotal = secondTotal + 1.8
+print("Your second meal is " + secondMeal)
+print("With a total with tip of $" + str(secondTipTotal))
+print("Enter the third meal you ordered ")
+thirdMeal = input()
+print("Enter your total of your third meal ")
+thirdTotal = float(input())
+thirdTipTotal = thirdTotal + 2.0
+print("Your third meal is " + thirdMeal)
+print("With a total with tip of $" + str(thirdTipTotal))
